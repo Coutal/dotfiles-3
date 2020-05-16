@@ -24,9 +24,11 @@ Here are some details about my linux environment:
 - **Panel**                       : Tint2 
 - **Apps Launcher**               : Rofi
 
-| Rofi | SLiM | Visual Mode |
-| --- | --- | --- |
-| ![Preview Rofi](https://i.ibb.co/j3Kq35K/rofi.gif) | ![Preview SLiM](https://i.ibb.co/0Xkw7yR/SLIM7.gif) | ![Visual Mode](https://i.ibb.co/2kkTvxp/OPENBOX10-VISUALMODE.gif) |
+| Rofi | SLiM |
+| -- | -- |
+| ![Preview Rofi](https://i.ibb.co/j3Kq35K/rofi.gif) | ![Preview SLiM](https://i.ibb.co/TmtPhvY/slim.jpg) |
+
+<p align="center"><a name="top" href="https://github.com/owl4ce/dotfiles"><img src="https://i.ibb.co/2kkTvxp/OPENBOX10-VISUALMODE.gif" alt="Visual Mode" align="center"></a></p>
 
 ## Read The Fine Manual
 1. To change the overall theme (mechanical-eyecandy), change it in the "Visual Mode" option in the openbox menu.
