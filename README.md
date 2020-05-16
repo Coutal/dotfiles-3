@@ -24,10 +24,6 @@ Here are some details about my linux environment:
 - **Panel**                       : Tint2 
 - **Apps Launcher**               : Rofi
 
-| Rofi | SLiM |
-| -- | -- |
-| ![Preview Rofi](https://i.ibb.co/j3Kq35K/rofi.gif) | ![Preview SLiM](https://i.ibb.co/TmtPhvY/slim.jpg) |
-
 <p align="center"><a name="top" href="https://github.com/owl4ce/dotfiles"><img src="https://i.ibb.co/2kkTvxp/OPENBOX10-VISUALMODE.gif" alt="Visual Mode" align="center"></a></p>
 
 ## Read The Fine Manual
@@ -43,6 +39,10 @@ Here are some details about my linux environment:
 10. To get the appropriate album art size for ncmpcpp, it is recommended that _cover.jpg_ has a ratio of 1:1 (300px+).
 11. If there is a configuration that using _/home/ryk/_ instead of _~_, change it according to the location of your home directory.
 12. Thunar Custom CSS is in my GTK Theme directory.
+
+| Rofi | SLiM |
+| -- | -- |
+| ![Preview Rofi](https://i.ibb.co/j3Kq35K/rofi.gif) | ![Preview SLiM](https://i.ibb.co/TmtPhvY/slim.jpg) |
 
 ## Environment Details
 | Items/Components     | Values/Dependencies                                                                                  |
