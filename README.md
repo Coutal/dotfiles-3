@@ -26,7 +26,7 @@ Here are some details about my linux environment:
 
 <p align="center"><a name="top" href="https://github.com/owl4ce/dotfiles"><img src="https://i.ibb.co/2kkTvxp/OPENBOX10-VISUALMODE.gif" alt="Visual Mode" align="center"></a></p>
 
-## Read The Fine Manual
+## <p align="center">Read The Fine Manual</p>
 1. To change the overall theme (mechanical-eyecandy), change it in the "Visual Mode" option in the openbox menu.
 2. I use the **volumeicon-alsa** tray for volume control, so I deactivated the key for pamixer in _~/.config/openbox/rc.xml_.
 3. Using normal users, for brightnessctl requires user privileges to be a superuser without the sudo command but using [this](https://unix.stackexchange.com/questions/79692/running-program-as-root-without-using-sudo-with-normal-user-account) or [udev rules](https://wiki.archlinux.org/index.php/backlight).
@@ -71,7 +71,7 @@ Here are some details about my linux environment:
 | Graphic Editor       | GIMP                                                                                                 |
 | CLI System Monitor   | htop                                                                                                 |
 
-## Credits / Thanks
+## <p align="center">Credits / Thanks</p>
 - [Elenapan](https://github.com/elenapan)
 - [Adhi Pambudi](https://github.com/addy-dclxvi)
 - [BanditHijo](https://github.com/bandithijo)
@@ -84,5 +84,5 @@ Here are some details about my linux environment:
 
 > Anime Art by [Ilya Kuvshinov](https://www.artstation.com/kuvshinov_ilya)
 
-## License
+## <p align="center">License</p>
 Licensed under the GPL - see the [LICENSE](LICENSE) file for details.
