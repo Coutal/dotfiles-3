@@ -44,7 +44,7 @@ Here are some details about my linux environment:
 | -- | -- |
 | ![Preview Rofi](https://i.ibb.co/j3Kq35K/rofi.gif) | ![Preview SLiM](https://i.ibb.co/TmtPhvY/slim.jpg) |
 
-## Environment Details
+## <p align="center">Environment Details</p>
 | Items/Components     | Values/Dependencies                                                                                  |
 |----------------------|------------------------------------------------------------------------------------------------------|
 | Shell                | ZSH with [Oh-My-ZSH](https://github.com/ohmyzsh/ohmyzsh) and my [custom theme](/.oh-my-zsh/themes)   |
