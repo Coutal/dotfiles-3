@@ -24,11 +24,11 @@ Here are some details about my linux environment:
 - **Panel**                       : Tint2 
 - **Apps Launcher**               : Rofi
 
-## <p align="center"> </p>
+##  
 
 <p align="center"><a name="top" href="https://github.com/owl4ce/dotfiles"><img src="https://i.ibb.co/2kkTvxp/OPENBOX10-VISUALMODE.gif" alt="Visual Mode" align="center"></a></p>
 
-## <p align="center"> </p>
+##  
 
 ## <p align="center">Read The Fine Manual</p>
 1. To change the overall theme (mechanical-eyecandy), change it in the "Visual Mode" option in the openbox menu.
