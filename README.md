@@ -28,6 +28,8 @@ Here are some details about my linux environment:
 
 <p align="center"><a name="top" href="https://github.com/owl4ce/dotfiles"><img src="https://i.ibb.co/2kkTvxp/OPENBOX10-VISUALMODE.gif" alt="Visual Mode" align="center"></a></p>
 
+## <p align="center"> </p>
+
 ## <p align="center">Read The Fine Manual</p>
 1. To change the overall theme (mechanical-eyecandy), change it in the "Visual Mode" option in the openbox menu.
 2. I use the **volumeicon-alsa** tray for volume control, so I deactivated the key for pamixer in _~/.config/openbox/rc.xml_.
