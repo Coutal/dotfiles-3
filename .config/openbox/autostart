@@ -5,12 +5,12 @@
 #
 # ---
 
-# UI Appearance - Open Last Theme (wallpaper, panel, notify-daemon, tray, etc)
-
+# UI Appearance - Open Last Theme (wallpaper, panel, notify-daemon)
 current="$(cat ~/.config/openbox/visual-mode/current)"
 bash ~/.config/openbox/visual-mode/$current/ui
 
-# ---
+# Tray
+bash ~/.config/openbox/tray
 
 # Compositor
 picom -b

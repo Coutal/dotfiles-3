@@ -13,6 +13,9 @@ if [[ $current != *"eyecandy"* ]]; then
     bash -c '~/.config/openbox/visual-mode/eyecandy/theme'
     bash -c '~/.config/openbox/visual-mode/eyecandy/ui'
     
+    # Tray
+    bash -c '~/.config/openbox/tray'
+    
     # Write Current
     echo "eyecandy" > ~/.config/openbox/visual-mode/current
 

@@ -13,6 +13,9 @@ if [[ $current != *"mechanical"* ]]; then
     bash -c '~/.config/openbox/visual-mode/mechanical/theme'
     bash -c '~/.config/openbox/visual-mode/mechanical/ui'
     
+    # Tray
+    bash -c '~/.config/openbox/tray'
+    
     # Write Current
     echo "mechanical" > ~/.config/openbox/visual-mode/current
 
