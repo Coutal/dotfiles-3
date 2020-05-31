@@ -68,7 +68,9 @@ ZSH_THEME="zash"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git zsh-syntax-highlighting zsh-autosuggestions bgnotify)
+
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8'
 
 source $ZSH/oh-my-zsh.sh
 
@@ -94,9 +96,9 @@ source $ZSH/oh-my-zsh.sh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+# Aliases
+#alias ls="colorls --sd -A"
+
 alias c="clear"
 alias q="exit"
 alias hd="hexdump -C"
@@ -115,7 +117,7 @@ alias httpd-status="systemctl status httpd mariadb"
 alias trimall="sudo fstrim -va"
 alias reflesh="sudo reflector --verbose --latest 5 --sort rate --save /etc/pacman.d/mirrorlist"
 
-# Color Toys
+# Color toys aliases
 alias bloks="~/.color-toys/bloks"
 alias colortest="~/.color-toys/colortest"
 alias colortest-slim="~/.color-toys/colortest-slim"
@@ -125,4 +127,3 @@ alias panes="~/.color-toys/panes"
 alias pipes1="~/.color-toys/pipes1"
 alias pipes2="~/.color-toys/pipes2"
 alias pipes2-slim="~/.color-toys/pipes2-slim"
-

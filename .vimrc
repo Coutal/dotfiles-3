@@ -53,7 +53,7 @@ set matchpairs+=<:>
 
 " Show line numbers
 set number
-highlight LineNr ctermfg=white
+highlight LineNr ctermfg=cyan
 
 " Set status line display
 set laststatus=2

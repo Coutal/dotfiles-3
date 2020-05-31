@@ -21,7 +21,7 @@ set titlecolor white,black
 set statuscolor magenta
 set keycolor blue
 set functioncolor white
-set numbercolor white
+set numbercolor cyan
 
 # SYNTAX HIGHTLIGHTING
 syntax "comments" ".*"
