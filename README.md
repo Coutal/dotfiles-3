@@ -41,7 +41,7 @@ I hope you understand everything here. :wink:
 | Items/Components     | Values/Dependencies                                                                                  |
 |----------------------|------------------------------------------------------------------------------------------------------|
 | Shell                | ZSH (Oh-My-ZSH)                                                                                      |
-| DM & Lockscreen      | SLiM ([Blue Sky](./Others/blusky))                                                                   |
+| DM & Lockscreen      | SLiM ([Blue Sky](./Others/bluesky))                                                                  |
 | Authentication Agent | polkit-gnome-authentication-agent-1                                                                  |
 | Power Manager        | xfce4-power-manager                                                                                  |
 | Sessions Auto Locker | xss-lock                                                                                             |
