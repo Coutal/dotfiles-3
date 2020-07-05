@@ -14,7 +14,6 @@
 This is my personal configuration for my favorite openbox window manager and some applications too.
 I hope you understand everything here. :wink:
 
-Here are some details about my linux environment:
 - **Terminal**                     : URxvt
 - **Icons**                        : [Papirus Custom](/.icons/)
 - **Openbox-GTK Theme**            : [Joy-Fleon, Lovely-Sweetly](/.themes/)
@@ -26,9 +25,9 @@ Here are some details about my linux environment:
 ##  
 
 ## <p align="center">Some Notes</p>
-1. To change the overall theme (mechanical-eyecandy), change it in the "Visual Mode" option in the openbox menu.
 <p align="center"><a name="top" href="https://github.com/owl4ce/dotfiles"><img src="https://i.ibb.co/FKcg75z/OPENBOX10-SWITCH.gif" alt="Visual Mode" align="center"></a></p>
 
+1. To change the overall theme (mechanical-eyecandy), change it in the "Visual Mode" option in the openbox menu.
 2. Using normal users, for brightnessctl requires user privileges to be a superuser without the sudo command but using [this](https://unix.stackexchange.com/questions/79692/running-program-as-root-without-using-sudo-with-normal-user-account) or [udev rules](https://wiki.archlinux.org/index.php/backlight).
 3. The QT theme is synchronized with the GTK Theme. Read [this](https://wiki.archlinux.org/index.php/Qt#GTK_and_Qt) for guide.
 4. URxvt extension uses [urxvt-perls](https://github.com/muennich/urxvt-perls) with **xclip** for copy-paste (Alt-C | Alt-V) and [tabbedex](https://github.com/mina86/urxvt-tabbedex) for tabs in the terminal (Ctrl-Shift-T | Ctrl-Shift-W | Ctrl-PageUp | Ctrl-PageDown).
