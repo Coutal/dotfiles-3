@@ -14,14 +14,12 @@
 This is my personal configuration for my favorite openbox window manager and some applications too.
 I hope you understand everything here. :wink:
 
-Here are some details about my linux environment:
-- **WM**                           : Openbox
 - **Terminal**                     : URxvt
 - **Icons**                        : [Papirus Custom](/.icons/)
 - **Openbox-GTK Theme**            : [Joy-Fleon, Lovely-Sweetly](/.themes/)
 - **Openbox Menu**                 : [obmenu-generator](https://github.com/trizen/obmenu-generator)
 - **Compositor (Rounded Corners)** : [Ibhagwan Picom Fork](https://github.com/ibhagwan/picom)
-- **Panel**                        : Tint2 
+- **Panel**                        : Tint2
 - **Apps Launcher**                : Rofi
 
 ##  
