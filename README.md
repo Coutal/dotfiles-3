@@ -74,6 +74,7 @@ I hope you understand everything here. :wink:
 - [Aditya Shakya](https://github.com/adi1090x)
 - Our local linux community [Linuxer Desktop Art](https://web.facebook.com/groups/linuxart) and [r/unixporn](https://www.reddit.com/r/unixporn/).
 - Some people in the forum who provide solutions.
+- All artists who make drawings, illustrations, wallpapers
 
 ## <p align="center">License</p>
 Licensed under the GPL - see the [LICENSE](LICENSE) file for details.
