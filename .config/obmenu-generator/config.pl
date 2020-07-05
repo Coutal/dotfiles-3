@@ -3,7 +3,6 @@
 # obmenu-generator - configuration file
 # This file will be updated automatically.
 # Any additional comment and/or indentation will be lost.
-# https://github.com/owl4ce/dotfiles
 
 =for comment
 
@@ -72,5 +71,5 @@ our $CONFIG = {
   "missing_icon"        => "gtk-missing-image",
   "terminal"            => "urxvt",
   "use_gtk3"            => 0,
-  "VERSION"             => 0.87,
+  "VERSION"             => 0.88,
 }

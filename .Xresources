@@ -1,7 +1,7 @@
 !! URxvt Appearance
 ! ---
 URxvt.font:                       xft:mplus nerd font mono:size=9
-URxvt.geometry:                   86x16
+URxvt.geometry:                   87x17
 URxvt.internalBorder:             20
 URxvt.cursorBlink:                true
 URxvt.cursorUnderline:            true
@@ -25,15 +25,15 @@ URXvt.tabbedex.reopen-on-close:   yes
 URxvt.tabbedex.autohide:          true
 
 URxvt.tabbedex.tabbar-fg:         8
-URxvt.tabbedex.tabbar-bg:         8
+URxvt.tabbedex.tabbar-bg:         0
 URxvt.tabbedex.tab-fg:            5
-URxvt.tabbedex.tab-bg:            8
-URxvt.tabbedex.bell-fg:           8
-URxvt.tabbedex.bell-bg:           8
+URxvt.tabbedex.tab-bg:            0
+URxvt.tabbedex.bell-fg:           0
+URxvt.tabbedex.bell-bg:           0
 URxvt.tabbedex.bell-tab-fg:       1
-URxvt.tabbedex.bell-tab-bg:       8
+URxvt.tabbedex.bell-tab-bg:       0
 URxvt.tabbedex.title-fg:          4
-URxvt.tabbedex.title-bg:          8
+URxvt.tabbedex.title-bg:          0
 
 URxvt.keysym.Control-Shift-T:     perl:tabbedex:new_tab
 URxvt.keysym.Control-Shift-R:     perl:tabbedex:rename_tab
@@ -73,13 +73,12 @@ URxvt.urlButton:                  1
 #define pallete14                 #89CCF7
 #define pallete15                 #A1D5F7
 #define pallete16                 #EDFEFE
-#define pallete17                 #DDE5E6
 
 *.foreground:                     pallete16
 *.background:                     pallete0
 *.cursorColor:                    pallete16
 !*fading:                          35
-!*fadeColor:                       pallete3
+!*fadeColor:                       pallete2
 
 *.color0:                         pallete0
 *.color1:                         pallete4
@@ -90,11 +89,11 @@ URxvt.urlButton:                  1
 *.color6:                         pallete14
 *.color7:                         pallete16
 
-*.color8:                         pallete1
+*.color8:                         pallete3
 *.color9:                         pallete5
 *.color10:                        pallete7
 *.color11:                        pallete9
 *.color12:                        pallete11
 *.color13:                        pallete13
 *.color14:                        pallete15
-*.color15:                        pallete17
+*.color15:                        pallete16

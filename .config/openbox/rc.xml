@@ -31,13 +31,13 @@
     'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Joy</name>
-    <titleLayout>SLIMC</titleLayout>
+    <name>Lovely</name>
+    <titleLayout>IMC</titleLayout>
     <!-- available characters are NDSLIMC, each can occur at most once. N: window icon L: window label (AKA title). I: iconify M: maximize C: close S: shade (roll up/down) D: omnipresent (on all desktops). -->
     <keepBorder>yes</keepBorder>
     <animateIconify>no</animateIconify>
     <font place="ActiveWindow">
-      <name>Iosevka</name>
+      <name>Cantarell</name>
       <size>10</size>
       <!-- font size in points -->
       <weight>Normal</weight>
@@ -46,7 +46,7 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="InactiveWindow">
-      <name>Iosevka</name>
+      <name>Cantarell</name>
       <size>10</size>
       <!-- font size in points -->
       <weight>Normal</weight>
@@ -55,16 +55,16 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuHeader">
-      <name>Iosevka</name>
-      <size>9</size>
+      <name>Cantarell</name>
+      <size>10</size>
       <!-- font size in points -->
-      <weight>Normal</weight>
+      <weight>Bold</weight>
       <!-- 'bold' or 'normal' -->
       <slant>Normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuItem">
-      <name>Iosevka</name>
+      <name>Cantarell</name>
       <size>8.5</size>
       <!-- font size in points -->
       <weight>Normal</weight>
@@ -73,7 +73,7 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="ActiveOnScreenDisplay">
-      <name>Iosevka</name>
+      <name>Cantarell</name>
       <size>8.5</size>
       <!-- font size in points -->
       <weight>Normal</weight>
@@ -82,7 +82,7 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="InactiveOnScreenDisplay">
-      <name>Iosevka</name>
+      <name>Cantarell</name>
       <size>8.5</size>
       <!-- font size in points -->
       <weight>Normal</weight>
@@ -126,8 +126,8 @@
   <!-- You can reserve a portion of your screen where windows will not cover when they are maximized, or when they are initially placed. Many programs reserve space automatically, but you can use this in other cases. -->
   <margins>
     <top>10</top>
-    <bottom>10</bottom>
-    <left>55</left>
+    <bottom>55</bottom>
+    <left>10</left>
     <right>10</right>
   </margins>
   <dock>
@@ -153,16 +153,15 @@
     <!-- brightness controls -->
     <keybind key="XF86MonBrightnessUp">
       <action name="Execute">
-        <command>brightnessctl set 5%+</command>
+        <command>bash -c 'brightnessctl set 5%+ ; ~/.scripts/get-brightness'</command>
       </action>
     </keybind>
     <keybind key="XF86MonBrightnessDown">
       <action name="Execute">
-        <command>brightnessctl set 5%-</command>
+        <command>bash -c 'brightnessctl set 5%- ; ~/.scripts/get-brightness'</command>
       </action>
     </keybind>
     <!-- volume control -->
-    <!--
     <keybind key="XF86AudioRaiseVolume">
       <action name="Execute">
         <command>bash -c 'pamixer -i 5 ; ~/.scripts/get-volume'</command>
@@ -178,7 +177,6 @@
         <command>pamixer -t</command>
       </action>
     </keybind>
-    -->
     <!-- MPD control -->
     <keybind key="XF86AudioStop">
       <action name="Execute">
@@ -437,9 +435,14 @@
         <command>thunar</command>
       </action>
     </keybind>
+    <keybind key="W-m">
+      <action name="Execute">
+        <command>~/.ncmpcpp/scripts/notify</command>
+      </action>
+    </keybind>
     <keybind key="Print">
       <action name="Execute">
-        <command>scrot -e 'mv $f ~/Pictures/'</command>
+        <command>bash -c '~/.scripts/shot-now'</command>
       </action>
     </keybind>
     <keybind key="W-Print">
@@ -458,55 +461,55 @@
     <screenEdgeWarpMouse>false</screenEdgeWarpMouse>
     <!-- Set this to TRUE to move the mouse pointer across the desktop when switching due to hitting the edge of the screen -->
     <context name="Frame">
-      <mousebind button="A-Left" action="Press">
+      <mousebind button="W-Left" action="Press">
         <action name="Focus"/>
         <action name="Raise"/>
       </mousebind>
-      <mousebind button="A-Left" action="Click">
+      <mousebind button="W-Left" action="Click">
         <action name="Unshade"/>
       </mousebind>
-      <mousebind button="A-Left" action="Drag">
+      <mousebind button="W-Left" action="Drag">
         <action name="Move"/>
       </mousebind>
-      <mousebind button="A-Right" action="Press">
+      <mousebind button="W-Right" action="Press">
         <action name="Focus"/>
         <action name="Raise"/>
         <action name="Unshade"/>
       </mousebind>
-      <mousebind button="A-Right" action="Drag">
+      <mousebind button="W-Right" action="Drag">
         <action name="Resize"/>
       </mousebind>
-      <mousebind button="A-Middle" action="Press">
+      <mousebind button="W-Middle" action="Press">
         <action name="Lower"/>
         <action name="FocusToBottom"/>
         <action name="Unfocus"/>
       </mousebind>
-      <mousebind button="A-Up" action="Click">
+      <mousebind button="W-Up" action="Click">
         <action name="GoToDesktop">
           <to>previous</to>
         </action>
       </mousebind>
-      <mousebind button="A-Down" action="Click">
+      <mousebind button="W-Down" action="Click">
         <action name="GoToDesktop">
           <to>next</to>
         </action>
       </mousebind>
-      <mousebind button="C-A-Up" action="Click">
+      <mousebind button="C-W-Up" action="Click">
         <action name="GoToDesktop">
           <to>previous</to>
         </action>
       </mousebind>
-      <mousebind button="C-A-Down" action="Click">
+      <mousebind button="C-W-Down" action="Click">
         <action name="GoToDesktop">
           <to>next</to>
         </action>
       </mousebind>
-      <mousebind button="A-S-Up" action="Click">
+      <mousebind button="W-S-Up" action="Click">
         <action name="SendToDesktop">
           <to>previous</to>
         </action>
       </mousebind>
-      <mousebind button="A-S-Down" action="Click">
+      <mousebind button="W-S-Down" action="Click">
         <action name="SendToDesktop">
           <to>next</to>
         </action>
@@ -714,22 +717,22 @@
           <to>next</to>
         </action>
       </mousebind>
-      <mousebind button="A-Up" action="Click">
+      <mousebind button="W-Up" action="Click">
         <action name="GoToDesktop">
           <to>previous</to>
         </action>
       </mousebind>
-      <mousebind button="A-Down" action="Click">
+      <mousebind button="W-Down" action="Click">
         <action name="GoToDesktop">
           <to>next</to>
         </action>
       </mousebind>
-      <mousebind button="C-A-Up" action="Click">
+      <mousebind button="C-W-Up" action="Click">
         <action name="GoToDesktop">
           <to>previous</to>
         </action>
       </mousebind>
-      <mousebind button="C-A-Down" action="Click">
+      <mousebind button="C-W-Down" action="Click">
         <action name="GoToDesktop">
           <to>next</to>
         </action>
@@ -767,12 +770,12 @@
           <to>next</to>
         </action>
       </mousebind>
-      <mousebind button="A-Up" action="Click">
+      <mousebind button="W-Up" action="Click">
         <action name="GoToDesktop">
           <to>previous</to>
         </action>
       </mousebind>
-      <mousebind button="A-Down" action="Click">
+      <mousebind button="W-Down" action="Click">
         <action name="GoToDesktop">
           <to>next</to>
         </action>
@@ -799,6 +802,9 @@
     <!-- show the manage desktops section in the client-list-(combined-)menu -->
   </menu>
   <applications>
+    <application class="URxvt" type="normal">
+      <decor>no</decor>
+    </application>
     <application class="Thunar" type="normal">
       <maximized>true</maximized>
     </application>

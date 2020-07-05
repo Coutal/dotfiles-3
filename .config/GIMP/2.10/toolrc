@@ -24,7 +24,7 @@
             (visible yes))))
 (GimpToolGroup "tool group"
     (visible yes)
-    (active-tool "gimp-free-select-tool")
+    (active-tool "gimp-iscissors-tool")
     (children
         (GimpToolInfo "gimp-free-select-tool"
             (icon-name "gimp-tool-free-select")
@@ -50,7 +50,7 @@
     (visible yes))
 (GimpToolGroup "tool group"
     (visible yes)
-    (active-tool "gimp-flip-tool")
+    (active-tool "gimp-scale-tool")
     (children
         (GimpToolInfo "gimp-unified-transform-tool"
             (icon-name "gimp-tool-unified-transform")
@@ -88,7 +88,7 @@
             (visible yes))))
 (GimpToolGroup "tool group"
     (visible yes)
-    (active-tool "gimp-bucket-fill-tool")
+    (active-tool "gimp-gradient-tool")
     (children
         (GimpToolInfo "gimp-bucket-fill-tool"
             (icon-name "gimp-tool-bucket-fill")

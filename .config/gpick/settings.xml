@@ -193,8 +193,8 @@
 <window type="dynv">
 <height type="int32">451</height>
 <width type="int32">608</width>
-<x type="int32">748</x>
-<y type="int32">167</y>
+<x type="int32">462</x>
+<y type="int32">116</y>
 </window>
 </main>
 <options type="dynv">
@@ -220,7 +220,7 @@
 <cmyk type="bool">false</cmyk>
 <hsl type="bool">false</hsl>
 <hsv type="bool">false</hsv>
-<info type="bool">false</info>
+<info type="bool">true</info>
 <lab type="bool">false</lab>
 <lch type="bool">false</lch>
 <rgb type="bool">false</rgb>
@@ -243,10 +243,10 @@
 </sampler>
 <swatch type="dynv">
 <active_color type="int32">4</active_color>
-<color1 type="color">0.376471 0.403922 0.447059 4.58575e-41</color1>
+<color1 type="color">0.537255 0.8 0.968627 4.56599e-41</color1>
 <color2 type="color">0.67451 0.713726 0.984314 4.56879e-41</color2>
 <color3 type="color">0.215686 0.243137 0.301961 4.56025e-41</color3>
-<color4 type="color">0.298039 0.337255 0.415686 4.57019e-41</color4>
+<color4 type="color">0.537255 0.8 0.968627 4.56305e-41</color4>
 <color5 type="color">0.862745 0.807843 0.905882 4.56501e-41</color5>
 <color6 type="color">0.898039 0.811765 0.901961 4.56501e-41</color6>
 </swatch>

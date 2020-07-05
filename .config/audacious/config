@@ -8,7 +8,6 @@ equalizer_preamp=-12
 open_to_temporary=FALSE
 repeat=TRUE
 resume_playback_on_startup=FALSE
-show_interface=FALSE
 
 [audgui]
 eq_preset_win=835,362,342,214

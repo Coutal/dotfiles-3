@@ -2,8 +2,8 @@
 # Any customization should be done in ~/.gtkrc-2.0.mine instead.
 
 include "/home/ryk/.gtkrc-2.0.mine"
-gtk-theme-name="Fleon"
-gtk-icon-theme-name="Papirus-Dark-Custom"
+gtk-theme-name="Sweetly"
+gtk-icon-theme-name="Papirus-Custom"
 gtk-font-name="Cantarell 8.5"
 gtk-cursor-theme-name="Capitaine-Cursors"
 gtk-cursor-theme-size=0

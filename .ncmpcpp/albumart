@@ -13,7 +13,7 @@ visualizer_output_name = "FIFO Visualizer"
 visualizer_sync_interval = "10"
 visualizer_type = "wave"
 #visualizer_look = "▉▉"
-visualizer_look = "▞▋"
+visualizer_look = "◾▍"
 #visualizer_look = "▍▍"
 #visualizer_look = "││"
 #visualizer_look = "▮▮"
@@ -26,7 +26,7 @@ visualizer_color = "white"
 mouse_support = "yes"
 mouse_list_scroll_whole_page = "yes"
 lines_scrolled = "1"
-message_delay_time = "3"
+message_delay_time = "1"
 playlist_shorten_total_times = "yes"
 playlist_display_mode = "classic"
 browser_display_mode = "columns"
@@ -40,7 +40,7 @@ locked_screen_width_part = "80"
 ask_for_locked_screen_width_part = "no"
 display_bitrate = "no"
 external_editor = "nano"
-main_window_color = default
+main_window_color = "default"
 #main_window_highlight_color = 7
 
 # PROGRESSBAR
@@ -48,6 +48,7 @@ progressbar_look = "━━━"
 #progressbar_look = "─⊙ "
 #progressbar_look = "─╼"
 #progressbar_look = "▃▃▃"
+#progressbar_look = "◾◾◽"
 progressbar_elapsed_color = 7
 progressbar_color = "black"
 
@@ -63,15 +64,15 @@ color1 = "white"
 color2 = "blue"
 
 # UI FORMAT
-now_playing_prefix = " $b$7$6$5"
+now_playing_prefix = " $b$6$2$7"
 now_playing_suffix = "$/b"
 current_item_prefix = "$/b$3"
 
-song_columns_list_format = "(4f)[cyan]{NE} (15)[red]{a} (50)[]{t|f:Title} (15)[magenta]{b} (4f)[red]{lr}"
+song_columns_list_format = "(4f)[red]{NE} (15)[white]{a} (50)[]{t|f:Title} (15)[magenta]{b} (4f)[white]{lr}"
 
-song_list_format = " {%t $R$7    $2%a$8}|{%f $R$2   %l$8} $R$8│                        "
+song_list_format = " {%t $R$6    $8%a$8}|{%f $R$6   $8%l$8} $R$8│                        "
 
-song_status_format = "{$b$7 $2%a $3〃 $5%t $3〃 $6%b}|{$b$7 $6%f}"
+song_status_format = "{$b$2 $8%a $3 $8%t $3 $6%b}|{$b$2 $8%f}"
 
 song_window_title_format = "{%a - %t}|{%f}"
 

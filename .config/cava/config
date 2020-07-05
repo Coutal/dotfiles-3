@@ -48,8 +48,8 @@
 # 
 # For alsa 'source' will be the capture device.
 # For fifo 'source' will be the path to fifo-file.
-; method = pulse
-; source = auto
+method = pulse
+source = auto
 
 ; method = alsa
 ; source = hw:Loopback,1
@@ -65,7 +65,7 @@
 # 'noncurses' is for systems that does not suport ncurses.
 # 'raw' is a 16 bit data stream of the bar heights that can be used to send to other applications.
 # 'raw' defaults to 200 bars, which can be adjusted in the 'bars' option above.
-; method = ncurses
+method = ncurses
 
 # Visual channels. Can be 'stereo' or 'mono'.
 # 'stereo' mirrors both channels with low frequencies in center.
@@ -104,8 +104,8 @@ foreground = '#edfefe'
 # not able to restore color definitions on exit, simply restart your terminal to restore colors.
 gradient = 1
 gradient_count = 2
-gradient_color_1 = '#63c5ea'
-gradient_color_2 = '#cf8ef4'
+gradient_color_1 = '#fa5aa4'
+gradient_color_2 = '#fa946e'
 
 
 [smoothing]

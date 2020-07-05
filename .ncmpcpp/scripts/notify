@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-MUSIC_DIR=$HOME/Music/ # Your music directory
+MUSIC_DIR=/media/ryk/AllMedia/MUSIC/ # Your music directory
 COVER=/tmp/cover.jpg
 
 {
@@ -18,7 +18,7 @@ COVER=/tmp/cover.jpg
         # Resize the image's width to 64px
         convert "$src" -resize 64x "$COVER"
         if [[ -f "$COVER" ]] ; then
-            notify-send -u low -i ${COVER} " Now Playing" "`mpc current`"
+            notify-send -u normal -i ${COVER} " Now Playing" "`mpc current`"
         fi
     fi
 } &

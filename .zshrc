@@ -8,7 +8,7 @@ export ZSH=$HOME/.oh-my-zsh
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="zash"
+ZSH_THEME="arrow"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -116,6 +116,7 @@ alias httpd-stop="systemctl stop httpd mariadb"
 alias httpd-status="systemctl status httpd mariadb"
 alias trimall="sudo fstrim -va"
 alias reflesh="sudo reflector --verbose --latest 5 --sort rate --save /etc/pacman.d/mirrorlist"
+alias sunano="sudo nano"
 
 # Color toys aliases
 alias bloks="~/.color-toys/bloks"

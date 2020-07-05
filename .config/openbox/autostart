@@ -22,7 +22,7 @@ picom -b
 xfce4-power-manager &
 
 # Lock Screen Handler
-xss-lock -- /usr/bin/slimlock &
+#xss-lock -- /usr/bin/slimlock &
 
 # Apps & Others (ex:mpd)
 mpd

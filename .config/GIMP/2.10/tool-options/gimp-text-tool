@@ -1,9 +1,9 @@
 # GIMP gimp-text-tool options
 
-(foreground (color-rgb 0.29803921568627451 0.33725490196078434 0.41568627450980394))
+(foreground (color-rgb 0.53725490196078429 0.80000000000000004 0.96862745098039216))
 (palette "Default")
-(font "Forever Brush Script")
-(font-size 100)
+(font "Youth Touch DEMO")
+(font-size 90)
 (hint-style full)
 (justify center)
 
