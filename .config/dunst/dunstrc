@@ -53,7 +53,7 @@ background = "#edfefe"
 foreground = "#373e4d"
 
 [urgency_normal]
-timeout = 5
+timeout = 6
 background = "#edfefe"
 foreground = "#373e4d"
 
