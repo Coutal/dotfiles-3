@@ -82,7 +82,7 @@ I hope you understand everything here. :wink:
 - [Aditya Shakya](https://github.com/adi1090x)
 - Our local linux community [Linuxer Desktop Art](https://web.facebook.com/groups/linuxart) and [r/unixporn](https://www.reddit.com/r/unixporn/).
 - Some people in the forum who provide solutions.
-- All artists who make drawings, illustrations, and wallpapers.
+- All artists who make drawings, illustrations, and wallpapers. By the way [this](https://drive.google.com/drive/folders/1fFseELgArlOGAAeUY32EO98dAU0ITjJ2?usp=sharing) is my wallpaper collection.
 
 ## <p align="center">License</p>
 Licensed under the GPL - see the [LICENSE](LICENSE) file for details.
