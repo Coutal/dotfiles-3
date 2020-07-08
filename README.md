@@ -36,7 +36,8 @@ I hope you understand everything here. :wink:
 7. To run ncmpcpp with album art and ncmpcpp with album art visualizer, just run it in the app launcher like rofi because I have created a desktop shortcut in _~/.local/share/applications/_.
 8. To get the appropriate album art size for ncmpcpp, it is recommended that _cover.jpg_ has a ratio of 1:1 (300px+).
 9. If there is a configuration that using _/home/ryk/_ instead of _~_, change it according to the location of your home directory.
-10. If you want to use zsh as the default shell, here are the steps to install zsh and oh-my-zsh:  
+10. If you experience memory leaks or high memory usage with picom, change the [picom backend](.config/picom.conf) to 'glx' instead of 'xrender'.
+11. If you want to use zsh as the default shell, here are the steps to install zsh and oh-my-zsh:  
     - **Arch**:   `sudo pacman -S zsh`  
     - **Debian**: `sudo apt install zsh`  
     **Set as default shell**:  
