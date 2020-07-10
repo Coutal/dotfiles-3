@@ -19,13 +19,13 @@ entry {
 #inputbar {
   children: [ prompt, textbox-prompt-colon, entry ];
   margin: @inputbar-margin;
-  border-radius: 24px;
+  border-radius: 8px;
 }
 #prompt {
   padding: @prompt-padding;
   background-color: @accent;
   text-color: @background;
-  border-radius: 24px;
+  border-radius: 8px;
 }
 #textbox-prompt-colon {
   expand: false;
@@ -42,12 +42,12 @@ entry {
   border: @list-element-border;
   background-color: @background-light;
   border-color: @background-light;
-  border-radius: 24px;
+  border-radius: 8px;
 }
 #element.selected {
   background-color: @background-focus;
   text-color: @foreground-list;
   border-color: @accent2;
-  border-radius: 24px;
+  border-radius: 8px;
 }
 

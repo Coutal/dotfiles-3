@@ -4,11 +4,9 @@
     </a>
 </p>
 
-<p align="center">Made with :heart: in the ~</p>
-
 #### [:framed_picture: ɢᴀʟʟᴇʀʏ](https://github.com/owl4ce/dotfiles/wiki/%C9%A2%E1%B4%80%CA%9F%CA%9F%E1%B4%87%CA%80%CA%8F) ‎ ‎ ‎[:computer: ᴋᴇʏʙɪɴᴅɪɴɢꜱ](https://github.com/owl4ce/dotfiles/wiki/%E1%B4%8B%E1%B4%87%CA%8F%CA%99%C9%AA%C9%B4%E1%B4%85%C9%AA%C9%B4%C9%A2%EA%9C%B1)
 
-<p align="center"><a name="top" href="https://github.com/owl4ce/dotfiles"><img src="https://i.ibb.co/XF3cKtt/OPENBOX10-SPLIT.gif" alt="Preview" align="left" width="36%"></a></p>
+<p align="center"><a name="top" href="https://github.com/owl4ce/dotfiles/wiki/%C9%A2%E1%B4%80%CA%9F%CA%9F%E1%B4%87%CA%80%CA%8F"><img src="https://i.ibb.co/bPYz10j/OPENBOX10-SPLIT.gif" alt="Preview" align="left" width="36%"></a></p>
 
 ### Hi there! Thanks for visiting!
 This is my personal configuration for my favorite openbox window manager and some applications too.
@@ -25,19 +23,18 @@ I hope you understand everything here. :wink:
 ##  
 
 ## <p align="center">Some Notes</p>
-<p align="center"><a name="top" href="https://github.com/owl4ce/dotfiles"><img src="https://i.ibb.co/FKcg75z/OPENBOX10-SWITCH.gif" alt="Visual Mode" align="center"></a></p>
+<p align="center"><a name="top" href="#some-notes"><img src="https://i.ibb.co/FKcg75z/OPENBOX10-SWITCH.gif" alt="Visual Mode" align="center"></a></p>
 
 1. To change the overall theme (mechanical-eyecandy), change it in the "Visual Mode" option in the openbox menu.
 2. Using normal users, for brightnessctl requires user privileges to be a superuser without the sudo command but using [this](https://unix.stackexchange.com/questions/79692/running-program-as-root-without-using-sudo-with-normal-user-account) or [udev rules](https://wiki.archlinux.org/index.php/backlight).
-3. The QT theme is synchronized with the GTK Theme. Read [this](https://wiki.archlinux.org/index.php/Qt#GTK_and_Qt) for guide.
-4. URxvt extension uses [urxvt-perls](https://github.com/muennich/urxvt-perls) with **xclip** for copy-paste (Alt-C | Alt-V) and [tabbedex](https://github.com/mina86/urxvt-tabbedex) for tabs in the terminal (Ctrl-Shift-T | Ctrl-Shift-W | Ctrl-PageUp | Ctrl-PageDown).
-5. For icons theme I recommend using my [Papirus Custom](/.icons/) and installing it on _/usr/share/icons/_ for full compatibility like the icons on dunst, etc.
-6. After installing the font you need to refresh the font cache using **fc-cache -r**.
-7. To run ncmpcpp with album art and ncmpcpp with album art visualizer, just run it in the app launcher like rofi because I have created a desktop shortcut in _~/.local/share/applications/_.
-8. To get the appropriate album art size for ncmpcpp, it is recommended that _cover.jpg_ has a ratio of 1:1 (300px+).
-9. If there is a configuration that using _/home/ryk/_ instead of _~_, change it according to the location of your home directory.
-10. If you experience memory leaks or high memory usage with picom, change the [picom backend](.config/picom.conf) to 'glx' instead of 'xrender'.
-11. If you want to use zsh as the default shell, here are the steps to install zsh and oh-my-zsh:  
+3. URxvt extension uses [urxvt-perls](https://github.com/muennich/urxvt-perls) with **xclip** for copy-paste (Alt-C | Alt-V) and [tabbedex](https://github.com/mina86/urxvt-tabbedex) for tabs in the terminal (Ctrl-Shift-T | Ctrl-Shift-W | Ctrl-PageUp | Ctrl-PageDown).
+4. For icons theme I recommend using my [Papirus Custom](/.icons/) and installing it on _/usr/share/icons/_ for full compatibility like the icons on dunst, etc.
+5. After installing the font you need to refresh the font cache using **fc-cache -r**.
+6. To run ncmpcpp with album art and ncmpcpp with album art visualizer, just run it in the app launcher like rofi because I have created a desktop shortcut in _~/.local/share/applications/_.
+7. To get the appropriate album art size for ncmpcpp, it is recommended that _cover.jpg_ has a ratio of 1:1 (300px+).
+8. If there is a configuration that using _/home/ryk/_ instead of _~_, change it according to the location of your home directory.
+9. If you experience memory leaks or high memory usage with picom, change the [picom backend](.config/picom.conf) to 'glx' instead of 'xrender'.
+10. If you want to use zsh as the default shell, here are the steps to install zsh and oh-my-zsh:  
     - **Arch**:   `sudo pacman -S zsh`  
     - **Debian**: `sudo apt install zsh`  
     **Set as default shell**:  
